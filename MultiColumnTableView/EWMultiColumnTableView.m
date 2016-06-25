@@ -451,7 +451,7 @@
     
     if (sectionHeaderEnabled && [multiColIndexPath length] == 1) 
         [dataSource tableView:self setContentForHeaderCellInSectionHeader:[cell viewWithTag:HeaderCellTag] 
-                    AtSection:[multiColIndexPath indexAtPosition:0]];
+                    atSection:[multiColIndexPath indexAtPosition:0]];
     else
         [dataSource tableView:self setContentForHeaderCell:[cell viewWithTag:HeaderCellTag] 
                   atIndexPath:multiColIndexPath];

@@ -158,7 +158,7 @@ typedef enum __EWMultiColumnTableViewColumnPosition {
 #pragma mark table header in section header
 // new cell
 - (UIView *)tableView:(EWMultiColumnTableView *)tableView headerCellInSectionHeaderForSection:(NSInteger)section;
-- (void)tableView:(EWMultiColumnTableView *)tableView setContentForHeaderCellInSectionHeader:(UIView *)cell AtSection:(NSInteger)section;
+- (void)tableView:(EWMultiColumnTableView *)tableView setContentForHeaderCellInSectionHeader:(UIView *)cell atSection:(NSInteger)section;
 // height
 - (CGFloat)tableView:(EWMultiColumnTableView *)tableView heightForHeaderCellInSectionHeaderAtSection:(NSInteger)section;
 
